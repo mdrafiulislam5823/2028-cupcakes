@@ -1,242 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>License - 2048 Cupcakes Game</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Poppins', sans-serif;
-           background: rgb(248, 244, 244);
-            min-height: 100vh;
-            padding: 40px 20px;
-            color: #333;
-        }
-        
-        .license-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-        }
-        
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        
-        .title {
-            font-size: 48px;
-            font-weight: 700;
-            background: linear-gradient(45deg, #ff6b9d, #ff8fab);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            font-size: 20px;
-            color: #666;
-            font-weight: 300;
-        }
-        
-        .license-section {
-            margin-bottom: 30px;
-        }
-        
-        .section-title {
-            font-size: 24px;
-            font-weight: 600;
-            color: #333;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #ff6b9d;
-            padding-bottom: 5px;
-        }
-        
-        .license-text {
-            font-size: 16px;
-            line-height: 1.8;
-            color: #555;
-            margin-bottom: 20px;
-        }
-        
-        .developer-info {
-            background: linear-gradient(135deg, #f8f9ff, #e8f0ff);
-            padding: 25px;
-            border-radius: 15px;
-            margin: 30px 0;
-            border-left: 5px solid #ff6b9d;
-        }
-        
-        .contact-info {
-            background: linear-gradient(135deg, #fff8f8, #ffe8e8);
-            padding: 25px;
-            border-radius: 15px;
-            margin: 30px 0;
-            border-left: 5px solid #ff8fab;
-        }
-        
-        .platform-links {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin: 20px 0;
-        }
-        
-        .platform-link {
-            display: inline-block;
-            padding: 12px 25px;
-            background: linear-gradient(135deg, #ff6b9d, #ff8fab);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: transform 0.3s ease;
-        }
-        
-        .platform-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(255, 107, 157, 0.3);
-        }
-        
-        .github-link {
-            background: linear-gradient(135deg, #333, #555);
-        }
-        
-        .back-button {
-            text-align: center;
-            margin-top: 40px;
-        }
-        
-        .btn-back {
-            display: inline-block;
-            padding: 15px 30px;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: transform 0.3s ease;
-        }
-        
-        .btn-back:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
-        }
-        
-        @media (max-width: 768px) {
-            .license-container {
-                padding: 25px;
-            }
-            
-            .title {
-                font-size: 36px;
-            }
-            
-            .platform-links {
-                justify-content: center;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="license-container">
-        <div class="header">
-            <h1 class="title">🧁 2048 Cupcakes</h1>
-            <p class="subtitle">Game License & Terms</p>
-        </div>
-        
-        <div class="license-section">
-            <h2 class="section-title">📜 License Agreement</h2>
-            <p class="license-text">
-                This 2048 Cupcakes game is released under the MIT License. You are free to use, modify, and distribute this game for both personal and commercial purposes, subject to the terms and conditions outlined below.
-            </p>
-        </div>
-        
-        <div class="license-section">
-            <h2 class="section-title">✅ Permitted Uses</h2>
-            <p class="license-text">
-                • <strong>Personal Use:</strong> Play and enjoy the game freely<br>
-                • <strong>Educational Use:</strong> Use for learning and teaching purposes<br>
-                • <strong>Modification:</strong> Modify the source code to create derivative works<br>
-                • <strong>Distribution:</strong> Share the game with proper attribution<br>
-                • <strong>Commercial Use:</strong> Use in commercial projects with attribution
-            </p>
-        </div>
-        
-        <div class="license-section">
-            <h2 class="section-title">🎮 Platform Distribution</h2>
-            <p class="license-text">
-                This game is officially licensed for distribution on the following platforms:
-            </p>
-            <div class="platform-links">
-                <a href="https://newgrounds.com" class="platform-link" target="_blank">🎨 Newgrounds.com</a>
-                <a href="https://itch.io" class="platform-link" target="_blank">🎮 Itch.io</a>
-            </div>
-        </div>
-        
-        <div class="developer-info">
-            <h2 class="section-title">👨‍💻 Developer Information</h2>
-            <p class="license-text">
-                <strong>Main Developer:</strong> RAFE UL ISLAM<br>
-                <strong>Username:</strong> mdrafiulislam5823<br>
-                <strong>GitHub Profile:</strong> <a href="https://github.com/mdrafiulislam5823" target="_blank" style="color: #ff6b9d;">github.com/mdrafiulislam5823</a>
-            </p>
-        </div>
-        
-        <div class="contact-info">
-            <h2 class="section-title">📧 Contact Information</h2>
-            <p class="license-text">
-                For questions, support, or licensing inquiries, please contact:<br>
-                <strong>Email:</strong> <a href="mailto:md.rafi.ul.islam5823@gmail.com" style="color: #ff6b9d;">md.rafi.ul.islam5823@gmail.com</a>
-            </p>
-        </div>
-        
-        <div class="license-section">
-            <h2 class="section-title">📋 Attribution Requirements</h2>
-            <p class="license-text">
-                When using or distributing this game, please include the following attribution:<br><br>
-                <em>"2048 Cupcakes Game developed by RAFE UL ISLAM (mdrafiulislam5823)<br>
-                Source code available at: https://github.com/mdrafiulislam5823<br>
-                Licensed under MIT License"</em>
-            </p>
-        </div>
-        
-        <div class="license-section">
-            <h2 class="section-title">⚖️ MIT License Terms</h2>
-            <p class="license-text">
-                Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-            </p>
-            <p class="license-text">
-                The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-            </p>
-            <p class="license-text">
-                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-            </p>
-        </div>
-        
-        <div class="license-section">
-            <h2 class="section-title">🔗 Source Code Access</h2>
-            <p class="license-text">
-                The complete source code for this game is available on GitHub:
-            </p>
-            <div class="platform-links">
-                <a href="https://github.com/mdrafiulislam5823" class="platform-link github-link" target="_blank">📂 View Source Code</a>
-            </div>
-        </div>
-        
-        <div class="back-button">
-            <a href="index.html" class="btn-back">🎮 Back to Game</a>
-        </div>
-    </div>
-</body>
-</html>
+# 🧁 2048 Cupcakes Game License & Terms
+
+## 📜 License Agreement
+
+This 2048 Cupcakes game is released under the MIT License. You are free to use, modify, and distribute this game for both personal and commercial purposes, subject to the terms and conditions outlined below.
+
+## ✅ Permitted Uses
+
+• **Personal Use:** Play and enjoy the game freely  
+• **Educational Use:** Use for learning and teaching purposes  
+• **Modification:** Modify the source code to create derivative works  
+• **Distribution:** Share the game with proper attribution  
+• **Commercial Use:** Use in commercial projects with attribution
+
+## 🎮 Platform Distribution
+
+This game is officially licensed for distribution on the following platforms:
+
+- [🎨 Newgrounds.com](https://newgrounds.com)
+- [🎮 Itch.io](https://itch.io)
+
+## 👨‍💻 Developer Information
+
+**Main Developer:** RAFE UL ISLAM  
+**Username:** mdrafiulislam5823  
+**GitHub Profile:** [github.com/mdrafiulislam5823](https://github.com/mdrafiulislam5823)
+
+## 📧 Contact Information
+
+For questions, support, or licensing inquiries, please contact:  
+**Email:** [md.rafi.ul.islam5823@gmail.com](mailto:md.rafi.ul.islam5823@gmail.com)
+
+## 📋 Attribution Requirements
+
+When using or distributing this game, please include the following attribution:
+
+*"2048 Cupcakes Game developed by RAFE UL ISLAM (mdrafiulislam5823)  
+Source code available at: https://github.com/mdrafiulislam5823  
+Licensed under MIT License"*
+
+## ⚖️ MIT License Terms
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## 🔗 Source Code Access
+
+The complete source code for this game is available on GitHub:  
+[📂 View Source Code](https://github.com/mdrafiulislam5823)
+
+---
+
+*This license file is part of the 2048 Cupcakes Game project.*
